@@ -1,0 +1,135 @@
+/* Estilos de pie de pagina y cabecera*/
+
+* { margin: 0; border: 0; padding: 0; box-sizing: border-box;  font-family: 'Open Sans', sans-serif;}
+body { background-color: white;
+    background-image: url(../Imagenes/portada\ gif.gif) ;  background-position: center;backface-visibility: visible ; 
+  }
+html{ border: 3px solid black;font-style: normal;}
+
+
+/*logotipo*/
+header img{ width: 300px; margin: 5px;}
+.logo{background-color: white;}
+
+/*barra de busqueda*/
+.container-clock{
+    float: right;
+    margin-top: 35px;margin-right: 100px;
+  }
+.container-clock h1{
+    font-size: 20px;
+    font-weight: 400px;
+
+}
+.container-clock p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+/*menu desplegable*/
+nav {display:block;width: 100%;position: relative;background-color:black;font: 16px Tahoma, sans-serif;
+text-align:center;height:39px;float: right;}
+
+nav ul { display:inline-block;text-align: center;}
+
+nav li {position: relative;float: left;list-style-type: none;}
+
+nav li a{display:block;padding: 10px 20px;border: 1px solid white;color:black;text-decoration: none;}
+
+ul, ol {list-style:none;}
+
+.nav li a {background-color:#000;color:#fff;text-decoration:none;padding:10px 12px;display:block;width: 220px;}
+
+.nav li a:hover {background-color:rgba(190, 19, 7, 0.945);}
+
+.nav li ul {display:none;position:absolute;min-width:200px;}
+
+.nav li:hover > ul {display:block;}
+
+.nav li ul li {position:relative;
+z-index: 2;}
+
+.nav li ul li ul {right:-14px;top:0px;}
+
+
+/*Pie de pagina*/
+#contenedor{ background-color: rgba(190, 19, 7, 0.945);display: flex;flex-direction: row;padding: 100px;}
+
+/*contenedor 2*/
+.cont2{width: 33%; margin: auto;}
+.cont2 img{ width: 10%; display: block; margin: auto;}
+
+/*contenedor 3*/
+.cont3{width: 33%; margin: auto;}
+.cont3 img{ width: 10%; display: block; margin: auto;}
+
+/*contenedor 4*/
+.cont4{width: 33%; margin: auto;}
+.cont4 img{ width: 10%; display: block; margin: auto;}
+
+div h3{color: yellow; margin-bottom: 20px;}
+div a{color: white; text-decoration: none;}
+div{ text-align: center;}
+
+
+footer {padding: 10px;text-align: center;background-color:black;}
+footer p {margin-bottom: 10px;color: white; font-size: 13pt;}
+footer img{width: 20pt;}
+
+	
+
+/* contenido de la pagina web*/
+/* Formulario de contacto*/
+
+/* Importación de fuentes de google fonts */ 
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+.contact_form{ width: 600px; height: auto;margin: 80px auto;border: 5px solid rgba(190, 19, 7, 0.945); border-radius: 10px;  
+padding-top: 30px;padding-bottom: 20px;  background:rgb(255, 255, 255) ;}
+
+.input{background-color: #fbfbfb; width: 408px; height: 40px; border-radius: 5px;  border-style: solid; 
+border-width: 1px; border-color: rgba(190, 19, 7, 0.945); margin-top: 10px;  padding-left: 10px;
+margin-bottom: 20px; }
+
+textarea{background-color: #fbfbfb; width: 405px; height: 150px; border-radius: 5px;  border-style: solid; 
+border-width: 1px; border-color: rgba(190, 19, 7, 0.945); margin-top: 10px;  padding-left: 10px;
+margin-bottom: 20px; padding-top: 15px; }
+
+label{display: block; float: center;  text-align: center;}
+  
+.boton{height: 45px; padding-left: 5px;padding-right: 5px;margin-bottom: 20px; margin-top: 10px;   
+text-transform: uppercase;background-color: rgba(190, 19, 7, 0.945); border-style: solid; border-radius: 10px;  
+width: 420px;   cursor: pointer; }
+  
+  
+button p{color: #fff; }
+
+span{color: rgba(190, 19, 7, 0.945); }
+
+.aviso{font-size: 13px;  color: #0e0e0e; }
+  
+h1{font-size: 39px;  text-align: letf; padding-bottom: 20px; color:black;}
+  
+.escribe{font-size: 16px; padding-bottom: 30px;color: red; }
+  
+p{font-size: 14px; color: #0e0e0e; }
+.box{
+    width: 405px; height: 45px;
+    border-radius: 10px;
+    margin-top: 10px;  padding-left: 10px;
+    border: 1px solid rgba(190, 19, 7, 0.945);
+}
+  
+::-webkit-input-placeholder {color: #a8a8a8;}
+::-webkit-textarea-placeholder {color: #a8a8a8;}
+  
+.formulario input:focus{outline:0;border: 1px solid rgba(190, 19, 7, 0.945);}
+  
+formulario textarea:focus{outline:0;border: 1px solid rgba(190, 19, 7, 0.945);}
+.negro{
+  color: #000;
+  text-decoration: underline;
+}
+

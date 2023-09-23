@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/botonsubir.css">
+    <title> Pagos- Polleria Rocko's </title>
+</head>
+
+<link rel="stylesheet" href="../Css/estiloscontacto.css">
+<link rel="shortcut icon" href="../Imagenes/favicon.png" type="image/x-icon">
+<script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script>
+
+<body>
+
+    <header class="logo">
+      <a href="../Pagina/Paginaprincipal rockos.html"> <img src="../Imagenes/rockos.png"  alt="" id="filtro" onmouseover="efecto()" onmouseout="efectosalida()"> </a>
+      <div class="container-clock">
+        <h1 id="time">00:00:00</h1>
+        <p id="date">date</p>
+     </div>
+           
+        <nav id="MenuNav">
+          <ul class="nav">
+              <li><a href="../Pagina/conocenos.html">Conocenos</a></li>
+              <li><a href="../Pagina/ofertas.html">Ofertas</a></li>
+              <li><a href="../Pagina/carta.html">Carta</a></li>
+              <li><a href="../Pagina/Locales.html">Locales</a> </li>
+
+              <li><a href="../Pagina/contacto.html">Pedido</a>
+                  <ul>
+                      
+                      <li><a href="../Pagina/PreguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+                  </ul>
+              </li>
+          </ul>
+      </nav>
+
+    </header>
+
+    <div class="contact_form">
+
+        <div class="formulario">      
+          <h1>Realiza tu pedido</h1>
+            <h3 class="escribe">En breve nos comunicamos con contigo</h3>
+                    <p>
+                      <label for="nombre" class="colocar_nombre">Nombre y Apellidos
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input class="input" type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                       
+                    </p>
+                  
+                    <p>
+                      <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input class="input" type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Usuario@gmail.com">
+                       
+                    </p>
+                
+                    <p>
+                      <label for="telefone" class="colocar_telefono">Teléfono
+                      </label>
+                        <input class="input" type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                       
+                    </p>  
+                    <p>
+                      <label for="Direccion" class="colocar_Direccion">Direccion
+                      </label>
+                      <input class="input" type="text" name="introducir_Direccion" id="Direccion" placeholder="Escribe tu Direccion">
+                     
+                    </p>
+                    <p>
+                      <label for="tarje" class="colocar_tarjeta"> Tarjeta
+                      </label>
+                      <input class="input" type="text" name="introducir_tarjeta" id="tarjeta" placeholder="Escribe tu Tarjeta">
+                    </p>    
+                    <br>
+                    <p>
+                      <label for="pedido" class="escoger_pedido"> Pedido
+                      </label>
+                      <input  class="input" type="text" name="introducir_pedido" id="pedido" placeholder="Escribe tu Pedido">
+                    </p> 
+                    <br>
+                    <p>
+                      <label for="cantidad" class="colocar_cantidad">Cantidad
+                      </label>
+                        <input class="input" type="text" name="introducir_cantidad" id="cantidad" placeholder="Que cantidad desea llevar?">
+                    </p> 
+                    
+                    <br>
+                    <input type="checkbox" id="aceptar">   Acepto las Condiciones y  <a  class="negro" href="../Pagina/politicadeprivacidad.html"> POLITICA  Y PRIVACIDAD</a>  
+                     <br>
+
+                    <button class="boton" type="submit" onclick="validar()" id="enviar"><p>Enviar</p></button>
+    
+                    <p class="aviso">
+                      <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>      
+                    
+                    
+
+                
+              </form>
+        </div>  
+    </div>
+
+    <div id="contenedor">
+        <div class="cont2">
+            <img src="../Imagenes/tiendayservices.png" alt="">
+            <h3> Tiendas y servicios </h3>
+            <a href="../Pagina/carta.html">Carta</a> <br>
+            <a href="../Pagina/ofertas.html">Ofertas</a>
+
+        </div>
+
+        <div class="cont3">
+            <img src="../Imagenes/atencionalcliente.png" alt="">
+            <h3>Atención al cliente</h3>
+            <a href="../Pagina/contacto.html"> Pedido</a> <br>
+            <a href="../Pagina/politicadeprivacidad.html"> política de privacidad</a>
+
+
+        </div>
+
+        <div class="cont4">
+            <img src="../Imagenes/terminos-y-condiciones.png" alt="">
+            <h3>Políticas y terminos</h3>
+            <a href="../Pagina/politicadeprivacidad.html">política de privacidad</a>
+        </div>
+
+
+    </div>
+
+
+    <footer class="peru">
+        <p> Derechos reservados a la polleria Rocko's © </p>
+        <P> Siguenos en: </P>
+        <img src="../Imagenes/Facebook.png"  alt="">
+        <img src="../Imagenes/twiter.png"alt="">
+        <img src="../Imagenes/gmail.png"alt="">
+    </footer>
+    
+    <div id="subir__arriba">
+      <i class="fas fa-angle-up"></i>
+    </div>
+
+    <script src="../js/main.js"></script>
+
+</body>
+<script src="../js/pagos.js"></script>
+
+</html>
